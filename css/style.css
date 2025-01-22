@@ -40,3 +40,22 @@ body{
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
     z-index: 100;
 }
+
+
+#message-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#message {
+  color: white;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+  font-size: 24px;
+  font-weight: bold;
+}
