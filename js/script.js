@@ -78,8 +78,8 @@ function createNumber() {
       
       const button = document.createElement('button');
       button.style.position = 'absolute';
-      button.style.width = '20px';
-      button.style.height = '20px';
+      button.style.width = '50px';
+      button.style.height = '50px';
       button.style.opacity = 0;
       button.style.border = 'none';
       button.style.background = 'rgba(255, 255, 255, 0.5)';
@@ -88,9 +88,11 @@ function createNumber() {
       button.style.top = '50%';
       button.style.transform = 'translate(-50%, -50%)';
       button.textContent = '';
-    
+
+      const messageContainer = document.getElementById('message-container');
       button.addEventListener('click', () => {
-        alert('SjExSThLNUo');
+        // alert('SjExSThLNUo');
+          messageContainer.style.display = 'block';
       });
     
       document.body.appendChild(button);
